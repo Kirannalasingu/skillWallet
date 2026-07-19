@@ -42,7 +42,6 @@ JSON Storage + Wikipedia API
 ---
 
 # 📂 Project Structure
-
 ```text
 personalized-networking-assistant/
 │
