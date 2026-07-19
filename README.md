@@ -91,7 +91,7 @@ personalized-networking-assistant/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/samxiao0/skill-wallet---GenAI-Project-.git
+git clone https://github.com/Kirannalasingu/skillWallet---GenAI-Project-.git
 cd personalized-networking-assistant
 ```
 
