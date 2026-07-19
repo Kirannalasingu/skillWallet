@@ -1,34 +1,49 @@
-🤝 Personalized Networking Assistant
+# 🤝 Personalized Networking Assistant
+
 An AI-powered networking assistant that helps users generate personalized conversation starters for professional events and conferences.
 
-Built using FastAPI, Streamlit, Natural Language Processing (NLP), and Wikipedia API.
+Built using **FastAPI, Streamlit, Natural Language Processing (NLP), and Wikipedia API.**
 
-📌 Features
-🔍 Analyze networking event descriptions
-🧠 Detect important topics using NLP
-💬 Generate personalized conversation starters
-📚 Verify topics using Wikipedia
-📝 Save conversation history
-👍👎 Collect user feedback on suggestions
-📄 Download conversation reports as PDF
-🧪 Unit testing with PyTest
-📖 Interactive API documentation using Swagger UI
-🏗️ Project Architecture
+---
+
+## 📌 Features
+
+* 🔍 Analyze networking event descriptions
+* 🧠 Detect important topics using NLP
+* 💬 Generate personalized conversation starters
+* 📚 Verify topics using Wikipedia
+* 📝 Save conversation history
+* 👍👎 Collect user feedback on suggestions
+* 📄 Download conversation reports as PDF
+* 🧪 Unit testing with PyTest
+* 📖 Interactive API documentation using Swagger UI
+
+---
+
+# 🏗️ Project Architecture
+
+```
 User
-  ↓
+        ↓
 Streamlit Frontend
-  ↓
+        ↓
 FastAPI Backend
-  ↓
+        ↓
 Services Layer
- ├── Event Analyzer
- ├── Topic Generator
- ├── Fact Checker
- ├── History Logger
- └── Feedback Logger
-  ↓
+├── Event Analyzer
+├── Topic Generator
+├── Fact Checker
+├── History Logger
+└── Feedback Logger
+        ↓
 JSON Storage + Wikipedia API
-📂 Project Structure
+```
+
+---
+
+# 📂 Project Structure
+
+```text
 personalized-networking-assistant/
 │
 ├── app/
@@ -53,109 +68,181 @@ personalized-networking-assistant/
 ├── requirements.txt
 ├── README.md
 └── .env
-⚙️ Technologies Used
-Technology	Purpose
-FastAPI	Backend API
-Streamlit	Frontend UI
-Transformers	NLP Processing
-Wikipedia API	Fact Verification
-ReportLab	PDF Generation
-PyTest	Unit Testing
-Git & GitHub	Version Control
-🚀 Installation
-1. Clone Repository
-git clone https://github.com/samxiao0/skill-wallet---GenAI-Project-.git
+```
 
+---
+
+# ⚙️ Technologies Used
+
+| Technology    | Purpose           |
+| ------------- | ----------------- |
+| FastAPI       | Backend API       |
+| Streamlit     | Frontend UI       |
+| Transformers  | NLP Processing    |
+| Wikipedia API | Fact Verification |
+| ReportLab     | PDF Generation    |
+| PyTest        | Unit Testing      |
+| Git & GitHub  | Version Control   |
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/samxiao0/skill-wallet---GenAI-Project-.git
 cd personalized-networking-assistant
-2. Create Virtual Environment
+```
+
+### 2. Create Virtual Environment
+
+```bash
 python -m venv .venv
+```
+
 Activate environment:
 
-Windows
+#### Windows
 
+```bash
 .venv\Scripts\activate
-Linux / macOS
+```
 
+#### Linux / macOS
+
+```bash
 source .venv/bin/activate
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ Run Backend
+```
+
+---
+
+# ▶️ Run Backend
+
+```bash
 python -m uvicorn app.main:app --reload
+```
+
 Backend runs at:
 
+```
 http://127.0.0.1:8000
+```
+
 Swagger API Documentation:
 
+```
 http://127.0.0.1:8000/docs
-▶️ Run Frontend
+```
+
+---
+
+# ▶️ Run Frontend
+
+```bash
 streamlit run frontend/streamlit_app.py
+```
+
 Frontend runs at:
 
+```
 http://localhost:8501
-🧪 Running Tests
+```
+
+---
+
+# 🧪 Running Tests
+
 Run all test cases:
 
+```bash
 pytest -v
+```
+
 Example output:
 
-================ 5 passed =================
-📷 Application Screenshots
-🏠 Home Page
+```text
+================ 5 passed ================
+```
+
+---
+
+# 📷 Application Screenshots
+
+## 🏠 Home Page
+
 Home Page
 
-📖 Swagger UI
+## 📖 Swagger UI
+
 Swagger UI
 
-🔎 Fact Checker
+## 🔎 Fact Checker
+
 Fact Checker
 
-🌟 Future Enhancements
-Gemini API integration
-User authentication system
-Cloud deployment
-Database integration (MongoDB/PostgreSQL)
-Analytics dashboard
-Dark mode support
-👨‍💻 Author
-Course : Google Cloud Generative AI
+---
 
-AITS Kadapa
+# 🌟 Future Enhancements
 
-B.Tech EEE
-Name:Nallasingu Guru Kiran
-Email : kirannalsingua@gmail.com
+* Gemini API integration
+* User authentication system
+* Cloud deployment
+* Database integration (MongoDB/PostgreSQL)
+* Analytics dashboard
+* Dark mode support
 
-Roll No. : 23HM1A3354
+---
 
-GitHub: https://github.com/samxiao0
+# 👨‍💻 Author
 
-Name : syed Jaffarhussain
-Email : js8380237@gmail.com
+**Course:** Google Cloud Generative AI
 
-Roll No. :23HM1A3353
+**AITS Kadapa**
 
-GitHub:https://github.com/js8380237-oss
+### Nallasingu Guru Kiran
 
-Name : SHAIK MOHAMMED FAWAZ
-Email : shaikfawaz920@gmail.com
+* **Name:** Nallasingu Guru Kiran
+* **Email:** [kirannalsingua@gmail.com](mailto:kirannalsingua@gmail.com)
+* **Roll No.:** 23HM1A3354
+* **GitHub:** https://github.com/samxiao0
 
-Roll No. : 23HM1A3348
+### Syed Jaffarhussain
 
-GitHub:https://github.com/SHAIKFAWAZ920
+* **Name:** Syed Jaffarhussain
+* **Email:** [js8380237@gmail.com](mailto:js8380237@gmail.com)
+* **Roll No.:** 23HM1A3353
+* **GitHub:** https://github.com/js8380237-oss
 
-Name : VADANALA VIJAY KUMAR
-Email :vijaykumarvadanala2005@gmail.com
+### Shaik Mohammed Fawaz
 
-Roll No. :23HM1A3359
+* **Name:** Shaik Mohammed Fawaz
+* **Email:** [shaikfawaz920@gmail.com](mailto:shaikfawaz920@gmail.com)
+* **Roll No.:** 23HM1A3348
+* **GitHub:** https://github.com/SHAIKFAWAZ920
 
-GitHub:https://github.com/vjaykumarvadanala2005-max
+### Vadanala Vijay Kumar
 
-Name : MEKALA JAYA RAJU
-Email :jayrajmekala@gmail.com
+* **Name:** Vadanala Vijay Kumar
+* **Email:** [vijaykumarvadanala2005@gmail.com](mailto:vijaykumarvadanala2005@gmail.com)
+* **Roll No.:** 23HM1A3359
+* **GitHub:** https://github.com/vjaykumarvadanala2005-max
 
-Roll No. :23HM1A3331
+### Mekala Jaya Raju
 
-GitHub:https://github.com/jayraj31
+* **Name:** Mekala Jaya Raju
+* **Email:** [jayrajmekala@gmail.com](mailto:jayrajmekala@gmail.com)
+* **Roll No.:** 23HM1A3331
+* **GitHub:** https://github.com/jayraj31
 
-📜 License
+---
+
+# 📜 License
+
 This project was developed as part of an internship project for educational purposes.
